@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+h1 {
+	color: blue;
+}
+
+li dfn {
+	color: red;
+}
+
+.quizinstruction {
+	color:green;
+}
+
+#fig1 {
+	border: 1em solid red;
+}
