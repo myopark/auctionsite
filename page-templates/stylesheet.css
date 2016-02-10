@@ -1,3 +1,11 @@
+/* border, margin, and padding were used for
+the buttons and the header to align things. .btn element uses all thre h1 usess all three elements
+to restart and style the spacing.
+
+float was used to align the images to the left. for .imagegrid img and .image grid div
+*/ 
+
+
 * {
 	font-family: 'Droid Sans', sans-serif;
 }
@@ -31,14 +39,20 @@ li {
 h1 {
 	font-size: 70px;
 	color: black;
+	padding: 0;
 	margin: 0;
 	margin-bottom: 50px;
+	border-top: 20px;
 
 
 }
 
+h2 {
+	margin: 0;
+}
+
 header img {
-	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .imagegrid div{
@@ -54,6 +68,7 @@ header img {
     background-size:   cover;
     width:  50%;
     height: 50%;
+    float: left;
 }
 
 .btn {
@@ -61,7 +76,10 @@ header img {
   font-size: 20px;
   background: #d96534;
   padding: 10px 20px 10px 20px;
+  margin-top: 10px;
   text-decoration: none;
+  border-radius: 10px;
+
 }
 
 .btn:hover {
